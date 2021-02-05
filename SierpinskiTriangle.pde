@@ -17,7 +17,7 @@ public void mouseDragged()
   if( mouseX <300) {
   s = s +5;
   } else if (mouseX>300) {
-   s = s -1;
+   s = s -5;
   } 
  if (s >600) {
    s =600;
