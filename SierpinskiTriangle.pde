@@ -13,7 +13,6 @@ public void draw()
 }
 public void mouseDragged()
 {
-  mouseX = mouseY;
   if( mouseX <300) {
   s = s +10;
   } else if (mouseX>300) {
